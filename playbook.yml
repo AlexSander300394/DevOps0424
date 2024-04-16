@@ -4,7 +4,7 @@
    tasks:
         - name: Criação de Usuário suporte
           ansible.builtin.user:
-             nome: Suporte
+             name: suporte
              comment: Suporte
              uid: 5000
              group: root
